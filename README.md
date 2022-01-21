@@ -67,7 +67,7 @@ Checkout the [Notebook](https://github.com/Pradnya1208/Web-Traffic-Time-Series-F
 
 
 ## References:
-[SMAPE](https://www.kaggle.com/cpmpml/smape-weirdness)
+[SMAPE](https://www.kaggle.com/cpmpml/smape-weirdness)<br>
 [Facebook prophet](https://facebookincubator.github.io/prophet/)
 
 
