@@ -33,4 +33,53 @@ Files used for the first stage will end in '_1'. Files used for the second stage
 
 **Libraries:**  `NumPy`   `pandas` `sklearn`  `Matplotlib`
 
+## Data exploration:
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/eda1.PNG?raw=true">
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/eda2.PNG?raw=true">
+
+## Forecast Methods:
+### SMAPE, the measurement:
+The SMAPE is one of the alternatives to overcome the limitations with MAPE forecast error measurement. In contrast to the mean absolute percentage error, SMAPE has both a lower bound and an upper bound, therefore, it is known as symmetric. The ‘S’ in SMAPE stands for symmetric, ‘M’ stands for mean which takes in the average value over a series, ‘A’ stands for absolute that uses absolute values to keep the positive and negative errors from canceling one another out, ‘P’ is the percentage which makes this accuracy metric a relative metric, and the ‘E’ stands for error since this metric helps to determine the amount of error our forecast has.
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/smape.PNG?raw=true" width="50%">
+
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/smape_plot.PNG?raw=true">
+
+### Simple median model:
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/simple%20median.PNG?raw=true" width="60%">
+
+### Median model - weekday, weekend and holiday:
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/median2.PNG?raw=true" width="60%">
+
+### ARIMA model:
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/arima.PNG?raw=true" width="60%">
+
+### Facebook prophet library:
+Facebook prophet library is created by facebook and aims to create a human-friendly time series forecasting libary.
+<img src="https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/output/log.PNG?raw=true" width="60%">
+
+Checkout the [Notebook](https://github.com/Pradnya1208/Web-Traffic-Time-Series-Forecasting/blob/main/web_traffic_time_series_forecasting.ipynb) for complete analysis.
+### Learnings:
+`Time Series Forecasting`
+
+
+
+
+
+
+## References:
+[SMAPE](https://www.kaggle.com/cpmpml/smape-weirdness)
+[Facebook prophet](https://facebookincubator.github.io/prophet/)
+
+
+### Feedback
+
+If you have any feedback, please reach out at pradnyapatil671@gmail.com
+
+
+### 🚀 About Me
+#### Hi, I'm Pradnya! 👋
+I am an AI Enthusiast and  Data science & ML practitioner
+
+
+
 
